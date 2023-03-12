@@ -7,3 +7,16 @@
   list-style: none;
   background-color: transparent;
 }
+
+.active-tab-btn {
+  background-color: #771938;
+  cursor: pointer;
+  font-weight: 500;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.not-active-tab-btn {
+  border-width: 0px;
+  margin-right: 20px;
+}

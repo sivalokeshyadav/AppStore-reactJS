@@ -8,7 +8,9 @@ const TabItem = props => {
     clickTabItem(tabId)
   }
 
-  const activeTabBtnClassName = isActive ? 'active-tab-btn' : ''
+  const activeTabBtnClassName = isActive
+    ? 'active-tab-btn'
+    : 'not-active-tab-btn'
 
   return (
     <li className="tab-item-container">
