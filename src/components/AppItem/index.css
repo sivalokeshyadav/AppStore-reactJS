@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.app-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+.app-item-image {
+  width: 50px;
+}
+
+.heading {
+  font-size: 20px;
+}
